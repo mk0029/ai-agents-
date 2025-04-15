@@ -128,6 +128,7 @@ export default function Home() {
       className={`min-h-screen px-4 py-8 transition-colors duration-300 ${
         darkMode ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"
       }`}>
+      <a href="mailto:your.email@example.com">Send Email</a>
       <div className="max-w-3xl mx-auto flex flex-col gap-6 items-center">
         <div className="w-full flex justify-between items-center mb-4">
           <h1 className="text-4xl font-bold">🔥 AI Playground</h1>
