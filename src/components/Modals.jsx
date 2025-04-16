@@ -10,7 +10,6 @@ export default function Modals() {
   const [loadingModel, setLoadingModel] = useState(null); // Current loading model
   const [currentModal, setCurrentModal] = useState("coding"); // Current loading model
   const [isModalDrop, setIsModalDrop] = useState(false); // Current loading model
-  // Submit using Gemini (local API)
   const handleSubmitGemini = async () => {
     if (!prompt.trim()) return;
     const currentModel = "Gemini";
